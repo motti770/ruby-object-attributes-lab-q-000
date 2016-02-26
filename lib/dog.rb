@@ -1,17 +1,21 @@
- class Dog
-   def name
-     @name
-   end
+class Dog
+  # setter method
+  def name=(given_name)
+    @name = given_name
+  end
 
-   def name=(name_value)
-     @name = name_value
-   end
-   
-   def breed
-     @breed
-   end
-   
-   def breed=(breed_value)
-     @breed = breed_value
-   end
- end
+  #read the name i.e. getter method
+  def name
+    @name
+  end
+
+  def breed=(dogs_breed)
+    @breed = dogs_breed
+  end
+
+  def breed
+    @breed
+  end
+
+
+end
